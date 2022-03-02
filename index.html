@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Invoice Creator</title>
+</head>
+<body>
+        
+    <div id="header">
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing Toshi Corp. LLC!</p>
+    </div>
+        
+    <div id="container">
+        <div id="main-section">
+            
+            <div id="btn-container">
+                <button id="wash-btn">Wash Car: $10</button>
+                <button id="mow-btn">Mow Lawn: $20</button>
+                <button id="pull-btn">Pull Weeds: $30</button>
+            </div>
+                                
+                <div class="invoice-headings">
+                    <p>Task</p>
+                    <p>Total</p>
+                </div>
+                
+                <div id="requested-serivces"></div>
+                
+                <div class="divider"></div>
+                
+                <div class="invoice-headings">
+                    <p>Notes</p>
+                    <p>Total Amount</p>
+                </div>
+                
+                <div id="invoice-footer">
+                    <p id="notes"></p>
+                    <p id="total-amount">$0</p>
+                </div>
+                
+             <button id="send-btn"><span class="material-icons">
+                mail</span>&nbsp;&nbsp;Send invoice</button>
+                 
+                                
+        </div>
+        
+    </div>
+    
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</body>
+</html>
